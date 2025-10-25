@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import PlaylistMusicPlayer from './PlaylistMusicPlayer';
-import ScrollToTop from "@/components/ScrollToTop";
 import WhatsAppFloat from './WhatsAppFloat';
 
 interface LayoutProps {
