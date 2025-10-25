@@ -1,73 +1,91 @@
-# Welcome to your Lovable project
+Welcome to My Project 👋
 
-## Project info
+Halo! Terima kasih sudah mampir ke project ini.
+Semua yang ada di sini adalah hasil karya saya sendiri — dibuat dengan banyak kopi dan sedikit rasa penasaran 😄
 
-**URL**: https://lovable.dev/projects/7a29b1fb-ee88-46a5-afa3-47f907ad4c07
+Kalau kamu ingin ikut ngulik, kontribusi, atau sekadar coba-coba, silakan banget!
+Project ini open source dan bisa kamu fork langsung dari repo ini.
 
-## How can I edit this code?
+🧩 Tech Stack
 
-There are several ways of editing your application.
+Project ini dibangun dengan kombinasi beberapa teknologi favorit saya:
 
-**Use Lovable**
+⚡ Vite – super cepat buat development
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7a29b1fb-ee88-46a5-afa3-47f907ad4c07) and start prompting.
+⚛️ React + TypeScript – biar kodenya lebih terstruktur dan aman
 
-Changes made via Lovable will be committed automatically to this repo.
+🎨 Tailwind CSS – styling yang fleksibel dan efisien
 
-**Use your preferred IDE**
+🧱 shadcn/ui – komponen UI modern siap pakai
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🚀 Cara Menjalankan di Lokal
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Kalau kamu mau coba jalankan di komputer kamu sendiri, ikuti langkah-langkah ini:
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+# 1. Clone repository ini
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 2. Masuk ke folder project
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Install semua dependensi
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Jalankan server development
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Setelah itu, buka browser dan akses http://localhost:5173 untuk melihat hasilnya.
 
-**Use GitHub Codespaces**
+🧠 Cara Edit atau Kontribusi
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Kamu bisa bantu ngembangin project ini dengan dua cara:
 
-## What technologies are used for this project?
+1. Edit langsung di GitHub
 
-This project is built with:
+Buka file yang ingin kamu ubah
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Klik ikon pensil ✏️ di kanan atas
 
-## How can I deploy this project?
+Lakukan perubahan, commit, dan kirim pull request
 
-Simply open [Lovable](https://lovable.dev/projects/7a29b1fb-ee88-46a5-afa3-47f907ad4c07) and click on Share -> Publish.
+2. Gunakan Codespaces
 
-## Can I connect a custom domain to my Lovable project?
+Buka repo ini di GitHub
 
-Yes, you can!
+Klik tombol hijau Code
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Pilih tab Codespaces dan buat workspace baru
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Edit langsung tanpa perlu install apa pun di lokal
+
+🌍 Deploy Project
+
+Setelah siap, kamu bisa deploy project ini di mana aja, misalnya:
+
+Vercel
+
+Netlify
+
+Cloudflare Pages
+
+atau server pribadi kamu sendiri
+
+Cukup build dulu project-nya:
+
+npm run build
+
+
+Folder hasil build ada di /dist, dan itu yang nanti kamu upload ke hosting pilihanmu.
+
+🌐 Custom Domain
+
+Kalau kamu ingin pakai domain pribadi, cukup arahkan DNS domain kamu ke hosting tempat project ini di-deploy.
+Setiap platform hosting biasanya punya panduan lengkap soal ini.
+
+⚖️ Lisensi & Hak Cipta
+
+© Ricky Steven Silaban
+All rights reserved.
+Silakan gunakan atau modifikasi project ini untuk belajar dan eksperimen,
+tapi mohon jangan mendistribusikan ulang tanpa izin. 🙏
