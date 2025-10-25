@@ -620,7 +620,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      <PlaylistMusicPlayer />
     </div>
   );
 };
